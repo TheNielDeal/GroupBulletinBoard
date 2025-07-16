@@ -311,7 +311,6 @@ function GBB.OptionsInit()
   end
   GBB.Options.AddSpace()
   CreateEditBoxDungeon( "SM2", "", 445, 200 )
-  CreateEditBoxDungeon( "DM2", "", 445, 200 )
   CreateEditBoxDungeon( "DEADMINES", "", 445, 200 )
   GBB.Options.Indent( -10 )
 

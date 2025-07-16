@@ -37,10 +37,6 @@ function GBB.GetDungeonNames()
     [ "BH" ] = "Baradin Hold",
     [ "SP" ] = "Stonetalon Peak",
     [ "SC" ] = "Stonetalon Caverns",
-    [ "DM2" ] = "Dire Maul",
-    [ "DME" ] = "Dire Maul: East",
-    [ "DMN" ] = "Dire Maul: North",
-    [ "DMW" ] = "Dire Maul: West",
     [ "STRAT" ] = "Stratholme",
     [ "SCHOLO" ] = "Scholomance",
     [ "LBRS" ] = "Lower Blackrock Spire",
@@ -91,10 +87,6 @@ function GBB.GetDungeonNames()
       [ "BH" ] = "Baradin Hold",
       [ "SP" ] = "Stonetalon Peak",
       [ "SC" ] = "Stonetalon Caverns",
-      [ "DM2" ] = "Dire Maul",
-      [ "DME" ] = "Dire Maul: East",
-      [ "DMN" ] = "Dire Maul: North",
-      [ "DMW" ] = "Dire Maul: West",
       [ "STRAT" ] = "Stratholme",
       [ "SCHOLO" ] = "Scholomance",
       [ "LBRS" ] = "Lower Blackrock Spire",
@@ -144,10 +136,6 @@ function GBB.GetDungeonNames()
       [ "BH" ] = "Baradin Hold",
       [ "SP" ] = "Stonetalon Peak",
       [ "SC" ] = "Stonetalon Caverns",
-      [ "DM2" ] = "Dire Maul",
-      [ "DME" ] = "Dire Maul: East",
-      [ "DMN" ] = "Dire Maul: North",
-      [ "DMW" ] = "Dire Maul: West",
       [ "STRAT" ] = "Stratholme",
       [ "SCHOLO" ] = "Scholomance",
       [ "LBRS" ] = "Lower Blackrock Spire",
@@ -196,10 +184,6 @@ function GBB.GetDungeonNames()
       [ "BH" ] = "Baradin Hold",
       [ "SP" ] = "Stonetalon Peak",
       [ "SC" ] = "Stonetalon Caverns",
-      [ "DM2" ] = "Dire Maul",
-      [ "DME" ] = "Dire Maul: East",
-      [ "DMN" ] = "Dire Maul: North",
-      [ "DMW" ] = "Dire Maul: West",
       [ "STRAT" ] = "Stratholme",
       [ "SCHOLO" ] = "Scholomance",
       [ "LBRS" ] = "Lower Blackrock Spire",
@@ -249,10 +233,6 @@ function GBB.GetDungeonNames()
       [ "BH" ] = "Baradin Hold",
       [ "SP" ] = "Stonetalon Peak",
       [ "SC" ] = "Stonetalon Caverns",
-      [ "DM2" ] = "Dire Maul",
-      [ "DME" ] = "Dire Maul: East",
-      [ "DMN" ] = "Dire Maul: North",
-      [ "DMW" ] = "Dire Maul: West",
       [ "STRAT" ] = "Stratholme",
       [ "SCHOLO" ] = "Scholomance",
       [ "LBRS" ] = "Lower Blackrock Spire",
@@ -301,10 +281,6 @@ function GBB.GetDungeonNames()
       [ "BH" ] = "Baradin Hold",
       [ "SP" ] = "Stonetalon Peak",
       [ "SC" ] = "Stonetalon Caverns",
-      [ "DM2" ] = "Dire Maul",
-      [ "DME" ] = "Dire Maul: East",
-      [ "DMN" ] = "Dire Maul: North",
-      [ "DMW" ] = "Dire Maul: West",
       [ "STRAT" ] = "Stratholme",
       [ "SCHOLO" ] = "Scholomance",
       [ "LBRS" ] = "Lower Blackrock Spire",
@@ -387,9 +363,6 @@ GBB.VanillaDungeonLevels = {
   [ "SP" ] = { 57, 60 },
   [ "SC" ] = { 57, 60 },
   [ "LBRS" ] = { 55, 60 },
-  [ "DME" ] = { 58, 60 },
-  [ "DMN" ] = { 58, 60 },
-  [ "DMW" ] = { 58, 60 },
   [ "STRAT" ] = { 58, 60 },
   [ "SCHOLO" ] = { 58, 60 },
   [ "UBRS" ] = { 58, 60 },
@@ -409,7 +382,6 @@ GBB.VanillaDungeonLevels = {
   [ "BAD" ] = { 0, 100 },
   [ "TRADE" ] = { 0, 100 },
   [ "SM2" ] = { 28, 42 },
-  [ "DM2" ] = { 58, 60 },
   [ "DEADMINES" ] = { 18, 23 },
 }
 
@@ -422,8 +394,7 @@ GBB.VanillaDungeonLevels = {
 GBB.VanillDungeonNames   = {
   "RFC", "WC", "DM", "SFK", "STOCKS", "BFD", "GNOMER",
   "RFK", "GY", "LIB", "ARMS", "CATH", "GMM", "RFD", "ULDA",
-  "ZF", "MARA", "ST", "BRD", "BH", "SP", "SC", "LBRS", "DME", "DMN",
-  "DMW", "STRAT", "SCHOLO", "UBRS", "ONY", "MC", "ULDUM", "ZG",
+  "ZF", "MARA", "ST", "BRD", "BH", "SP", "SC", "LBRS", "STRAT", "SCHOLO", "UBRS", "ONY", "MC", "ULDUM", "ZG",
   "AQ10", "BWL", "AQ25", "NAXX",
 }
 
@@ -512,9 +483,8 @@ function GBB.GetDungeonSort()
     dungeonSort[ dungeon ] = nb
   end
 
-  -- Need to do this because I don't know I am too lazy to debug the use of SM2, DM2, and DEADMINES
+  -- Need to do this because I don't know I am too lazy to debug the use of SM2, and DEADMINES
   dungeonSort[ "SM2" ] = 10.5
-  dungeonSort[ "DM2" ] = 19.5
   dungeonSort[ "DEADMINES" ] = 99
 
   return dungeonSort
