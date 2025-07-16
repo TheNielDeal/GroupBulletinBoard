@@ -26,10 +26,10 @@ To open the settings, use slash command: **`/gbb`** or click the minimap icon.
 ## Graphical Interface
 
 ### Main Window
-![Main Window screenshot](doc/img/addon-gbb-1.0.0-main.jpg)
+![Main Window screenshot](doc/img/EpochGBB-main.png)
 
 ### Interface Settings
-![Interface Settings screenshot](doc/img/addon-gbb-1.0.0-settings.jpg)
+![Interface Settings screenshot](doc/img/EpochGBB-options.png)
 
 ## Slash Commands
 
