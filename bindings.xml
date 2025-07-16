@@ -1,0 +1,5 @@
+<Bindings>
+  <Binding name="Open/Close Group Bulletin Board" description="Opens/Closes Group Bulletin Board Window" header="GroupBulletinBoardBinding" category="ADDONS">
+    GroupBulletinBoard_Addon:ToggleWindow()
+  </Binding>
+</Bindings>

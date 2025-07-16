@@ -1,0 +1,30 @@
+## Interface: 30300
+## Title: Group Bulletin Board
+## Notes: A bulletin board for LFG/LFM messages.
+## Version: 1.0
+## Author: TheNielDeal
+## X-Website: https://github.com/TheNielDeal
+## X-Category: Chat/Communication
+## OG-Author: Obszczymucha aka. Ohhaimark
+## OG-Repo: https://codeberg.org/obszczymucha/group-bulletin-board-tbc
+## OG-Git-Tag: v1.41
+## DefaultState: enabled
+## SavedVariables: GroupBulletinBoardDb
+## SavedVariablesPerCharacter: GroupBulletinBoardDbChar
+## LoadOnDemand: 0
+
+Loader.lua
+Backport.lua
+InterfaceOptionsFrame.lua
+LibGPIOptions.lua
+LibGPIMinimapButton.lua
+LibGPIToolBox.lua
+Chat.lua
+Localization.lua
+Dungeons.lua
+Tags.lua
+RequestList.lua
+Options.lua
+GroupList.Lua
+GroupBulletinBoard.lua
+GroupBulletinBoard.xml
