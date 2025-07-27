@@ -535,7 +535,7 @@ function GBB.GetDungeons( msg, name )
         break
       elseif x == GBB.TAGSEARCH then
         isGood = true
-      else
+      elseif GBB.dungeonLevel[ x ] then
         dungeons[ x ] = true
       end
     end
