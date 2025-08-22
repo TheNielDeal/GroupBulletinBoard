@@ -162,7 +162,7 @@ function GBB.LevelRange(dungeon, short)
 end
 
 function GBB.FilterDungeon( dungeon, isHeroic, isRaid )
-  if dungeon == nil then return false end
+  if dungeon == nil then return false else return true end
   if isHeroic == nil then isHeroic = false end
   if isRaid == nil then isRaid = false end
 
