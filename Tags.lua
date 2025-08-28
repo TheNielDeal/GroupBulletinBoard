@@ -279,8 +279,6 @@ GBB.dungeonTagsLoc = {
   } ),
 }
 
-GBB.dungeonTagsLoc.enGB[ "DEADMINES" ] = { "dm" }
-
 GBB.dungeonSecondTags = {
   [ "DEADMINES" ] = { "DM", "-DMW", "-DME", "-DMN" },
   [ "SM2" ] = { "GY", "LIB", "ARMS", "CATH" },
