@@ -163,7 +163,8 @@ end
 
 function GBB.FilterDungeon( dungeon, isHeroic, isRaid )
   if dungeon == nil then return false end
-  return GBB.DBChar["FilterDungeon" .. dungeon]
+  return GBB.DBChar[ "FilterDungeon" .. dungeon ] and
+    (GBB.DBChar.FilterLevel == false or inLevelRange)
 end
 
 function GBB.formatTime( sec )
